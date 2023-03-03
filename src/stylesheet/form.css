@@ -1,0 +1,54 @@
+form {
+  border: 2px solid;
+  width: 30%;
+  padding: 1rem;
+}
+.login-input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+}
+.login-label {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.login-btn {
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: rgb(86, 234, 227);
+}
+h1 {
+  color: white;
+}
+
+.li-div {
+  width: 100%;
+  max-height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.li-div::-webkit-scrollbar {
+  display: none;
+}
+ul {
+  width: 30%;
+  /* border: 2px solid red; */
+}
+
+li {
+  border: 1px solid;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
